@@ -1,7 +1,7 @@
 body { 
     font-family: "Roboto", sans-serif;
     background-color: #fff;
-    color: #434455;
+    color: #2e2f42;
 }
 
 a {
@@ -149,6 +149,10 @@ button {
     text-transform: capitalize;
 }
 
+.team-list {
+    background-color: #FFFFFF;
+}
+
 .team-list-title {
     font-weight: 500;
     font-size: 20px;
@@ -177,10 +181,11 @@ button {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-list-title {
