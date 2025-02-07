@@ -152,7 +152,7 @@ button {
     text-transform: capitalize;
 }
 
-.team-list {
+.team-list, .team-card {
     background-color: #ffff;
 }
 
