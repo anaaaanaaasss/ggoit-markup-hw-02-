@@ -178,7 +178,7 @@ button {
 
 /* #region Portfolio */
 .portfolio {
-    background-color: #fff;
+    background-color: #f4f4fd;
 }
 
 .portfolio-title {
@@ -190,7 +190,9 @@ button {
     color: #2e2f42;
     text-transform: capitalize;
 }
-
+ .portfolio-list {
+    background-color: #fff;
+ }
 .portfolio-list-title {
     font-weight: 500;
     font-size: 20px;
