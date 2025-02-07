@@ -1,7 +1,7 @@
 body { 
     font-family: "Roboto", sans-serif;
     background-color: #fff;
-    color: #2e2f42;
+    color: #434455;
 }
 
 a {
@@ -21,30 +21,21 @@ button {
 }
 
 /* #region header */
-.header {}
-
-.header-nav {}
 
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+
 }
 
 .logo-color {
     color: #2e2f42;
 }
-
-.header-nav-list {
-    
-    
-}
-
-.nav-header-items {}
 
 .nav-item-link { 
     font-weight: 500;
@@ -59,16 +50,21 @@ button {
     color: #404bbf;
 }
 
+.address {
+ font-style: normal;   
+}
+
 .list-contacts-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
+    
 }
 
-.list-contacts-link:hover {
+.list-contacts-link:hover,
+.list-contacts-link:focus {
     color: #404bbf;
 }
 
@@ -87,6 +83,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    
 }
 
 .hero-button {
@@ -97,7 +94,8 @@ button {
     color: #fff;
     background-color: #4d5ae5;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404bbf;
 }
 
@@ -118,10 +116,6 @@ button {
     color: #2e2f42;
 }
 
-.features-list {}
-
-.features-list-items {}
-
 .features-list-title {
     font-weight: 500;
         font-size: 20px;
@@ -130,12 +124,13 @@ button {
         color: #2e2f42;
 }
 
-.features-items-text {
+.features-list-text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        
 }
 /* #endregion Features */
 
@@ -147,15 +142,12 @@ button {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
-
-.team-list {}
-
-.team-card {}
 
 .team-list-title {
     font-weight: 500;
@@ -191,10 +183,6 @@ button {
     color: #2e2f42;
 }
 
-.portfolio-list {}
-
-.portfolio-list-items {}
-
 .portfolio-list-title {
     font-weight: 500;
     font-size: 20px;
@@ -218,10 +206,6 @@ button {
 .footer {
     background-color: #2e2f42;
 }
-
-.logo {}
-
-.white {}
 
 .footer-text {
     font-family: "Roboto", sans-serif;
