@@ -104,9 +104,12 @@ button {
 /* #region Features */
 
 .features {
-    background-color: #fff;
+    background-color: #F4F4FD;
 }
 
+.features-list {
+    background-color: #FFFFFF;
+}
 .features-title {
     font-weight: 700;
     font-size: 36px;
